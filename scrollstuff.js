@@ -27,12 +27,14 @@ var scrollstuff = (function($){
     }
   };
 
+
   /**
    * Updates the method-global window scroll position
    */
   var _updateScrolltop = function(){
     _global.wp = $(window).scrollTop();
   };
+
 
   /**
    * @param  {object} Takes the input parameters from original call
@@ -49,8 +51,7 @@ var scrollstuff = (function($){
       delay     = calledinput.delay     || delay;
     }
 
-    // initial check;
-    _updateScrolltop();
+    _updateScrolltop(); // initial check;
     _inviewChecker(selector, repeat, classname, delay);
 
     $(window).scroll( function(){
