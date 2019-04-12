@@ -13,16 +13,16 @@ var scrollstuff = (function($){
   var _inviewChecker = function($passedselector, passedrepeat, passedclassname, passeddelay){
     if($passedselector !== undefined){
       $passedselector.each(function(){
-       if( _global.wp + $(window).height() > $(this).offset().top ){
-        var $passedthis = $(this);
-        setTimeout(function(){
-          $passedthis.addClass(passedclassname);
-        }, passeddelay);
-       }else{
-        if(passedrepeat){
-          $(this).removeClass(passedclassname);
+        if( _global.wp + $(window).height() > $(this).offset().top ){
+          var $passedthis = $(this);
+          setTimeout(function(){
+            $passedthis.addClass(passedclassname);
+          }, passeddelay);
+        }else{
+          if(passedrepeat){
+            $(this).removeClass(passedclassname);
+          }
         }
-       }
       });
     }
   };
