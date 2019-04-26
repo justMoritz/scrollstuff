@@ -5,7 +5,7 @@ Simple jQuery _“stuff is scrolled into view so let's add a class”_ plugin
 ### Basic
 scrollstuff Extends the jQuery Object with a new method, so the easiest usage is like this:
 
-    $('your-selector-here')..scrollstuff({});
+    $('your-selector-here').scrollstuff({});
 
 ### Advanced
 You van also run scrollstuff with arguments
