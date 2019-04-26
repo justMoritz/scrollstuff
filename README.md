@@ -10,7 +10,7 @@ scrollstuff Extends the jQuery Object with a new method, so the easiest usage is
 ### Advanced
 You van also run scrollstuff with arguments
 
-    $('your-selector-here')..scrollstuff({
+    $('your-selector-here').scrollstuff({
       classname: 'custom-class-name',
       delay: 700,
       repeat: true
