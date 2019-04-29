@@ -1,0 +1,21 @@
+{
+  "name": "scrollstuff",
+  "main": "scrollstuff.js",
+  "homepage": "https://github.com/justMoritz/scrollstuff",
+  "authors": [
+    "justMoritz <moritz@zimmermail.net>"
+  ],
+  "description": "Simple jQuery “stuff is scrolled into view so let's add a class” plugin",
+  "keywords": [
+    "scrolling",
+    "stuff"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
